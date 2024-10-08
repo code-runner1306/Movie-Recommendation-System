@@ -1,12 +1,25 @@
-Movie-Recommendation-System-Using-Python
-In this python project where using Pandas library we will find correlation and created basic Movie Recommender System with Python.
+# Movie Recommendation System
 
-It is an extension from the project: https://github.com/krishnaik06/Movie-Recommender-in-python
+A movie recommendation system developed using Jupyter Notebook that leverages collaborative filtering and content-based filtering techniques to provide personalized movie suggestions based on user preferences and movie attributes.
 
-The Dataset used is a subset of MovieLens Dataset.
+## Table of Contents
 
-Extension
-Have created a text input bar to add your movie whose recommendation you want. Output will give you top 4 matches that are recommended movies.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 
-Results
-Screen Shot 2020-06-06 at 9 36 16 PM Screen Shot 2020-06-06 at 9 36 41 PM
+## Features
+
+- **Collaborative Filtering**: Recommends movies based on user preferences by analyzing interactions from similar users.
+- **Content-Based Filtering**: Suggests movies based on their attributes, such as genre, director, and cast.
+- **Interactive Interface**: Allows users to input preferences and receive tailored movie recommendations.
+- **Performance Evaluation**: Assesses the accuracy of recommendations using metrics like precision and recall.
+
+## Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
